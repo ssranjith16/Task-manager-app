@@ -1,0 +1,9 @@
+Step-by-Step Plan
+
+1.Define the Task Class: This will represent a single task and include attributes such as description, priority, and completion status.
+
+2.Define the TaskManager Class: This will manage a list of tasks and include methods to add, remove, list, and prioritize tasks.
+
+3.Add Recommendations Functionality: Use a simple keyword matching algorithm to recommend similar tasks.
+
+4.Interactive Menu: Provide a command-line interface for users to interact with the app

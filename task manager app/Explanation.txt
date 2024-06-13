@@ -1,0 +1,28 @@
+Explanation
+
+1.Task Class: Represents each task with a description, priority, and completion status.
+
+    * '__lt__' method allows tasks to be compared based on priority for heap operations.
+   
+    * '__str__' method provides a readable string representation of the task.
+
+2.TaskManager Class: Manages the task list with methods to add, remove, list, prioritize, recommend, and mark tasks as completed.
+
+    *Uses a min-heap (priority queue) to manage tasks by priority.
+    
+    *Methods like add_task and remove_task manipulate the task list efficiently.
+
+3.Main Function: Provides an interactive menu for user inputs, allowing various operations on tasks.
+
+Features:
+    *Adding Tasks: Adds a task with a given description and priority.
+    
+    *Removing Tasks: Removes a task based on the description.
+    
+    *Listing Tasks: Lists all tasks, showing their priority and status.
+    
+    *Prioritizing Tasks: Displays tasks sorted by priority.
+    
+    *Task Recommendations: Finds and lists tasks related to a keyword.
+    
+    *Marking Tasks as Completed: Updates the task's status to completed.
